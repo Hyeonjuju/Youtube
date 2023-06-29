@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sidebat.css">
+</head>
+<body>
+    <aside>
+        <div class="search-box">
+            <input type="text" placeholder="검색">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="menu">
+            <a href="#">
+                <i class="fas fa-duotone fa-globe"></i>
+                전체
+            </a>
+            <a href="#">
+                <i class="fas fa-duotone fa-music"></i>
+                음악
+            </a>
+            <a href="#">
+                <i class="fas fa-duotone fa-gamepad"></i>
+                게임
+            </a>
+            <a href="#">
+                <i class="fas fa-duotone fa-newspaper"></i>
+                뉴스
+            </a>
+            <a href="#">
+                <i class="fas fa-duotone fa-utensils"></i>
+                요리
+            </a>
+            <a href="#">
+                <i class="fas fa-duotone fa-volleyball-ball"></i>
+                스포츠
+            </a>
+            <a href="#">
+                <i class="fas fa-duotone fa-star"></i>
+                즐겨찾기
+            </a>
+        </div>
+        <div class="ad-container">
+            <img src="./ad-image.png" alt="광고 이미지">
+        </div>
+        <div class="video-feed">
+            <div class="video">
+                <img src="./video-thumbnail.png" alt="영상 썸네일">
+                <h3>영상 제목</h3>
+                <p>영상 설명</p>
+            </div>
+            <!-- 추가 영상 -->
+        </div>
+    </aside>
+
+    <script src="https://kit.fontawesome.com/510fbf9652.js" crossorigin="anonymous"></script>
+</body>
+</html>
